@@ -1,0 +1,8 @@
+sum=0
+n=1
+while(n!=0):
+    n=int(input("Enter amount in Rupees:"))
+    if(n>40 and n<100):
+        continue
+    sum=sum+n
+print(sum)
